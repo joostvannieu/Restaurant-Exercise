@@ -8,5 +8,40 @@ li {
 }
 
 body {
-    margin: 85%
+
+}
+
+.map {
+  
+
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #3c3f41;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer > div {
+    display: inline-block;
+    float:left;
+    word-wrap: normal;
+    margin-left: 75px;
+}
+
+.footerHeader {
+    color: #b9b12e;
+}
+
+.ContactInfo {
+    padding-bottom: 100px;
+}
+
+.copyright {
+    clear: left;
+}
+
+.copyright > p {
 }
