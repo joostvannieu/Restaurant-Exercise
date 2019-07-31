@@ -1,0 +1,12 @@
+header {
+    background-image: url("Group.png");
+}
+
+li {
+    list-style-type:none;
+    float: left;
+}
+
+body {
+    margin: 85%
+}
