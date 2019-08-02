@@ -138,13 +138,45 @@ h4{
 }
 
 .reservation {
+    padding-top: 100px;
+    margin: auto;
+    display: inline-block;
     clear: right;
     height: 600px;
     width: 100%;
     background-color: #3c3f41;
+    text-align: center;
+}
+
+.whiteText {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.reservation > p {
+    color: grey;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+.Submit {
+    margin-top: 50px;
+    background-color: goldenrod;
+    color: white;
+    width: 250px;
+    height: 50px;
+}
+
+.textbox {
+    margin: 30px;
+    width: 250px;
+    height: 50px;
 }
 
 .recipes {
+    margin-top: 50px;
     height: 900px;
     text-align: right;
     overflow: auto;
@@ -191,7 +223,7 @@ h4{
     margin-bottom: 50px;
     border-bottom: 3px solid #BBBBBB;
     margin-left: 25%;
-    color: lightgrey;
+    color: grey;
 }
 
 .infoinputcontainerbottom {
@@ -199,7 +231,7 @@ h4{
     margin-bottom: 50px;
     border-bottom: none;
     margin-left: 25%;
-    color: lightgrey;
+    color: grey;
 }
 
 .infoinput {
@@ -247,7 +279,8 @@ footer > div {
     display: inline-block;
     float:left;
     word-wrap: normal;
-    margin-left: 75px;
+    margin-left: 150px;
+    font-size: larger;
 }
 
 .footerHeader {
